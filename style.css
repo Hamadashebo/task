@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+.header {
+    
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+  }
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: white;
+  }
+  .navbar{
+    margin-top: 0px;
+    
+    background-color: #343a40;
+    margin-bottom: 10px;
+    
+    
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.container-fluid .navbar-brand{ 
+ color: white;
+}
+.container-fluid .navbar-brand:hover{
+    background-color: rgba(128, 128, 128, 0.711);
+    border-radius: 3px;
+    padding: 5px;
+}
+.container-fluid .collapse .navbar-nav .nav-item  a {
+ color: white;
+ transition: all 1s ease;
+ background-color: #343a40;
+ 
+}
+.container-fluid .collapse .navbar-nav .nav-item  a:hover{
+    background-color: rgba(128, 128, 128, 0.711);
+    border-radius: 3px;
+    padding: 3px;
+    text-decoration: underline;
+    
+}
+
+.nav-links  a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #343a40;
+    
+}
+  .nav-links a:hover {
+    text-decoration: underline;
+}
+  .post {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #343a40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 240px;
+    height: 240px;
+    color: white;
+}
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  .post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+  .post p {
+    color: rgba(255, 255, 255, 0.692);
+    line-height: 1.6;
+}
+  .post .btn-primary {
+    background-color: black;
+    border: none;
+}
+  .post .btn-primary:hover {
+    background-color:coral;
+}
+  .aside {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: all ease-in 1.5s;
+    position: relative;
+    display: none;
+    margin-left: 100px;
+    width: 300px;
+    color: white;
+    
+}
+.aside:hover{
+  transform: translateX(-20px);
+}
+  .aside h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.bars{
+  width: 50px;
+  float: left;
+  position: absolute;
+  gap:6px;
+  right: 10px;
+  bottom: 65%;
+  display: block;
+  
+
+}
+.bar{
+  height: 40px;
+  font-size: 30px;
+  width: 40px;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 1s;
+  margin: 5px;
+  background-color: #343a40;
+  color: white;
+}
+.bar:hover{
+  transform: scale(1.1);
+}
+  .aside ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .aside ul li {
+    margin-bottom: 10px;
+  }
+  .aside ul li a {
+    color: rgba(255, 255, 255, 0.692);;
+    text-decoration: none;
+  }
+  .aside ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .footer p {
+    margin: 0;
+  }
+.form input{
+  width: 400px;
+  
+  margin-left: 440px;
+}
+
+.top-putton{
+  margin-top: 50px;
+  margin-left: 585px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.586);
+  color: white;
+  
+}
